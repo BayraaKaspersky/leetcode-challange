@@ -7,11 +7,16 @@
  * @return {number}
  */
 var majorityElement = function (nums) {
-  let freg = {};
-  let len = Math.floor(nums.length / 2);
+  let freq = {};
+  let len = Math.floor(nums.length / 2) + 1;
+
   for (let i of nums) {
-    freg[i] = (freg[i] || 0) + 1;
+    freq[i] = (freq[i] || 0) + 1;
   }
 
-  return freq.some((num) => num >= len);
+  for (let num in freq) {
+    if (freq[num] >= len) {
+      return Number(num);
+    }
+  }
 };
