@@ -3,16 +3,10 @@
 // Date   : 2024-09-06
 
 /**
- * @param {number[]} nums
- * @param {Function} fn
- * @param {number} init
- * @return {number}
+ * @param {string} date
+ * @return {string}
  */
-
-var reduce = function (nums, fn, init) {
-  let val = init;
-  for (let i = 0; i < nums.length; i++) {
-    val = fn(val, nums[i]);
-  }
-  return val;
+var convertDateToBinary = function(date) {
+  let [year, month, day] = date.split('-').map(Number);
+  return `${year.toString(2)}-${month.toString(2)}-${day.toString(2)}`;
 };
