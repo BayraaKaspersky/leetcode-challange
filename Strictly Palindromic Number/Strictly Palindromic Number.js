@@ -3,7 +3,7 @@
 // Date   : 2024-09-10
 
 /**
- * @param {number} n
+ * @param {number}
  * @return {boolean}
  */
 var isStrictlyPalindromic = function (n) {
