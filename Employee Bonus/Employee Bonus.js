@@ -1,7 +1,7 @@
 // Source : https://leetcode.com/problems/employee-bonus/description/
 // Author : Bayarjargal
 // Date   : 2024-09-16
-
+ 
 # Write your MySQL query statement below
 SELECT 
     e.name,
