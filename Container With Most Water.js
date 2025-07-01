@@ -21,6 +21,5 @@ let maxArea = function(height) {
         right--;
       }
     }
-    return maxArea;
-    
+    return maxArea;  
 };
