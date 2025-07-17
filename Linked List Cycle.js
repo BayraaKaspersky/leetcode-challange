@@ -1,4 +1,4 @@
-// Source : https://leetcode.com/problems/linked-list-cycle
+// Source : https://leetcode.com/problems/linked-list-cycle/description
 // Author : Bayarjargal
 // Date   : 2025-07-17
 
